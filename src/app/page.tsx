@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter';
 export default function Home() {
   return (
     <div className="max-w-3xl">
-      <h1 className="text-4xl font-bold mb-6">Hello, I'm Nathan Keith.</h1>
+      <h1 className="text-4xl font-bold mb-6">Hi there, I'm Nathan Keith!</h1>
       <p className="text-xl text-gray-600 mb-8">
         I am a{' '}
         <span className="font-semibold text-black">
@@ -30,7 +30,7 @@ export default function Home() {
         <section>
           <h2 className="text-2xl font-semibold mb-4">About Me</h2>
           <p className="text-gray-600">
-            [Your brief introduction and what you do]
+            
           </p>
         </section>
 

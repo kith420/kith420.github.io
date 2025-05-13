@@ -4,16 +4,18 @@ import Image from 'next/image';
 const Sidebar = () => {
   const navItems = [
     { name: 'Explore', href: '/' },
-    { name: 'Education', href: '/education' },
+    { name: 'Achievements', href: '/achievements' },
     { name: 'Work Experience', href: '/experience' },
     { name: 'Projects', href: '/projects' },
     { name: 'Blog', href: '/blog' },
+    { name: 'Resume', href: '/resume' },
   ];
 
   const socialLinks = [
-    { name: 'Email', href: 'mailto:your.email@example.com', icon: '↗' },
+    { name: 'Email', href: 'mailto:nathankeith_poernama@mymail.sutd.edu.sg', icon: '↗' },
     { name: 'LinkedIn', href: 'https://www.linkedin.com/in/kith14/', icon: '↗' },
     { name: 'GitHub', href: 'https://github.com/kith420', icon: '↗' },
+    { name: 'Codeforces', href: 'https://codeforces.com/profile/kith14', icon: '↗' },
   ];
 
   return (
@@ -44,14 +46,6 @@ const Sidebar = () => {
               </Link>
             </li>
           ))}
-          <li>
-            <Link 
-              href="/resume"
-              className="inline-block px-4 py-2 bg-gray-100 text-gray-900 rounded-full text-sm hover:bg-gray-200 transition-colors"
-            >
-              Resume
-            </Link>
-          </li>
         </ul>
       </nav>
 

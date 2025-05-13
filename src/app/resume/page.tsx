@@ -1,11 +1,16 @@
 export default function Resume() {
   return (
     <div className="w-full h-[calc(100vh-64px)] flex flex-col items-center py-10 bg-white">
+      <h1 className="text-3xl font-bold mb-4">Resume</h1>
+      <iframe
+        className="w-[800px] h-full flex justify-center mb-4"
+        src="https://docs.google.com/document/d/15hqpXspiZcus18S9oPujC6xXHFxiYDLq/preview"
+      />
       <a
         href="https://docs.google.com/document/d/15hqpXspiZcus18S9oPujC6xXHFxiYDLq/export?format=pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="mb-4 px-4 py-2 bg-gray-100 text-gray-900 rounded-full text-sm hover:bg-gray-200 transition-colors flex items-center gap-2"
+        className="mb-4 px-4 py-2 bg-gray-300 text-gray-900 rounded-full text-sm hover:bg-gray-200 transition-colors flex items-center gap-2"
       >
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
@@ -24,10 +29,6 @@ export default function Resume() {
         </svg>
         Download PDF
       </a>
-      <iframe
-        className="w-[800px] h-full flex justify-center"
-        src="https://docs.google.com/document/d/15hqpXspiZcus18S9oPujC6xXHFxiYDLq/preview"
-      />
     </div>
   );
 } 
