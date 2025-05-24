@@ -6,7 +6,6 @@ export default function Experience() {
       <h1 className="text-3xl font-bold mb-8">Work Experience</h1>
       
       <div className="space-y-12">
-        {/* NTT Data Experience */}
         <div className="flex items-start gap-6 border-b border-gray-200 pb-8">
           <div className="flex-shrink-0">
             <a href="https://www.nttdata.com/global/en/" target="_blank" rel="noopener noreferrer">
@@ -41,7 +40,6 @@ export default function Experience() {
           </div>
         </div>
 
-        {/* Kokocoder Experience */}
         <div className="flex items-start gap-6 border-b border-gray-200 pb-8">
           <div className="flex-shrink-0">
             <a href="https://kokocoder.com/" target="_blank" rel="noopener noreferrer">
