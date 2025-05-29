@@ -66,6 +66,32 @@ export default function Experience() {
             <p className="text-gray-600 mb-3">Technologies used: C++, Python, LaTeX, Markdown, and git.</p>
           </div>
         </div>
+
+        <div className="flex items-start gap-6 border-b border-gray-200 pb-8">
+          <div className="flex-shrink-0">
+            <a href="https://www.ruangguru.com/" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/images/ruangguru.png"
+                alt="Kokocoder logo"
+                width={56}
+                height={56}
+                className="rounded-lg object-contain bg-white border border-gray-200"
+              />
+            </a>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-semibold mb-2">"Clash of Champions" Cast</h2>
+            <p className="text-gray-600 mb-1">Ruangguru</p>
+            <p className="text-sm text-gray-500 mb-4">May 2024 - Aug 2024</p>
+            <ul className="list-disc list-inside text-gray-600 space-y-1 mb-2">
+              <li>Participated in Season 1 of the viral Indonesian show "Clash of Champions" of the International cohort.</li>
+              <li>Obtained over 48,000 followers on Instagram, curating and creating viral posts for the Indonesian youth.</li>
+              <li>Performed games under pressure: memorizing a deck of cards in order, painting “Jeopardy”, “invisible maze”.</li>
+            </ul>
+            <a href="https://youtu.be/H-TPKUdRGEY?si=FywD2KfOGK79PPGR&t=3441" target="_blank" rel="noopener noreferrer" className="text-gray-900 mb-3">Click here to view a link to an episode I was in!</a>
+          </div>
+        </div>
       </div>
     </div>
   );

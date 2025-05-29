@@ -17,7 +17,7 @@ export default function Achievements() {
         <div className="mb-6">
           <h3 className="text-xl font-semibold">Top 2000, Meta Hacker Cup 2023 & 2024</h3>
           <p className="text-sm text-gray-500">Oct 2023 & Oct 2024</p>
-          <p className="text-gray-700">Advanced to Round 2 and was awarded a free Meta Hacker Cup T-shirt</p>
+          <p className="text-gray-700">Advanced to Round 2 and was awarded a free Meta Hacker Cup T-shirt for both years.</p>
           <div className="flex gap-4"> 
             <a href="https://www.facebook.com/codingcompetitions/hacker-cup/2023/round-2/scoreboard" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
               View 2023 Competition
